@@ -79,8 +79,9 @@ public:
         }
         else //to remove the topmost element and adjust the queue
         {
-            token = Queue[front];
             front++;
+            token = Queue[front];
+            
         }
         cout<<"\nNow Serving Customer Number: "<<token<<endl;
     }
